@@ -117,7 +117,10 @@ p {
 }
 .section.hero {
   padding-bottom: 0px;
-  background-image: url(../images/034ac8b0-2bb2-4fd2-8754-ab3fd2315d54_hero-background.jpg);
+  background-image: url(../images/stepupbg.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat no-repeat;
 }
 .section.white {
   box-shadow: none;
@@ -190,15 +193,15 @@ p {
   background-color: #ed7a56;
 }
 .hero-header {
-  margin-top: 130px;
-  margin-bottom: 19px;
+  margin-top: 64px;
+  margin-bottom: 14px;
   font-family: Montserrat, sans-serif;
   color: white;
   font-size: 42px;
   text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
 }
 .hero-subtitle {
-  margin-bottom: 20px;
+  margin-bottom: 41px;
   color: rgba(255, 255, 255, 0.83);
   font-size: 15px;
   line-height: 22px;
@@ -343,7 +346,7 @@ p {
   .section.hero {
     padding-top: 34px;
     padding-bottom: 1px;
-    background-image: url(../images/034ac8b0-2bb2-4fd2-8754-ab3fd2315d54_hero-background.jpg);
+    background-image: url(../images/stepupbg.jpg);
   }
   .hero-iphone {
     text-shadow: black 0px 0px 0px;
@@ -386,7 +389,8 @@ p {
     text-align: center;
   }
   .section.hero {
-    background-image: url(../images/034ac8b0-2bb2-4fd2-8754-ab3fd2315d54_hero-background.jpg);
+    min-height: 345px;
+    background-image: url(../images/GOPR0378_1380145604628_low.JPG);
     text-align: center;
   }
   .hero-iphone {
@@ -450,7 +454,10 @@ p {
     text-align: center;
   }
   .section.hero {
-    background-image: url(../images/034ac8b0-2bb2-4fd2-8754-ab3fd2315d54_hero-background.jpg);
+    min-height: 300px;
+    padding-top: 16px;
+    background-image: url(../images/GOPR0378_1380145604628_low.JPG);
+    background-size: 480px;
   }
   .section.white {
     padding-top: 0px;
@@ -472,14 +479,29 @@ p {
     clear: none;
   }
   .hero-header {
+    overflow: visible;
+    margin-top: -1px;
+    margin-bottom: 6px;
+    padding-bottom: 0px;
     font-size: 32px;
     text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
+  }
+  .hero-subtitle {
+    margin-top: 132px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
   .big-image {
     text-shadow: black 0px 0px 0px;
   }
   .price-text {
     font-size: 23px;
+  }
+  .call-to-action {
+    margin-bottom: 10px;
+  }
+  .center {
+    padding-bottom: 21px;
   }
   .fixed {
     position: fixed;
@@ -491,5 +513,8 @@ p {
     overflow: visible;
     height: 45px;
     background-color: #745785;
+  }
+  .herophone {
+    margin-top: -13px;
   }
 }
