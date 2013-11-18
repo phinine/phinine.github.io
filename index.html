@@ -123,44 +123,47 @@
             id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
         </div>
         <div class="w-col w-col-6">
-          <div class="w-form">
-            <form name="email-form" data-name="Email Form">
+       <!--Enrollment Form Start-->
+			<script type="text/javascript">var submitted=false;</script>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){$('#ss-form').hide();$('#thankyou').fadeIn('fast');}"></iframe>
+            <form action="https://docs.google.com/forms/d/14hbxRvSftO67MfeUdE1n2b3WIBulL-aDOYE13tr5MX4/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true;">
               <label class="formlabels" for="name">Name:</label>
-              <input class="w-input form-tour" id="entry-2077966172" type="text" placeholder="Enter your name" name="entry-2077966172" data-name="entry.2077966172" required></input>
+              <input class="w-input form-tour" id="entry-2077966172" type="text" placeholder="Enter your name" name="entry.2077966172" data-name="entry.2077966172" required></input>
               <label class="formlabels" for="email">Email Address:</label>
-              <input class="w-input form-tour" id="entry-545428842" type="text" placeholder="Enter your email address" name="entry-545428842" data-name="entry.545428842" required></input>
+              <input class="w-input form-tour" id="entry-545428842" type="text" placeholder="Enter your email address" name="entry.545428842" data-name="entry.545428842" required></input>
               <label class="formlabels">Phone Number</label>
-              <input class="w-input form-tour" id="entry-416038299" type="number" placeholder="Phone Number" name="entry-416038299" required data-name="entry.416038299"></input>
+              <input class="w-input form-tour" id="entry-416038299" type="number" placeholder="Phone Number" name="entry.416038299" required data-name="entry.416038299"></input>
               <label class="formlabels">Childs Age</label>
-              <input class="w-input form-tour" id="entry-1418408603" type="number" placeholder="Childs Age" name="entry-1418408603" required data-name="entry.1418408603"></input>
-              <label class="formlabels">Program That Your Are Interested In?</label>
-              <select class="w-select form-tour" id="entry-1710616196" name="entry-1710616196" data-name="entry.1710616196" required="required">
-                <option value="Preschool (morning)">Preschool (morning)</option>
+              <input class="w-input form-tour" id="entry-1418408603" type="number" placeholder="Childs Age" name="entry.1418408603" required data-name="entry.1418408603"></input>
+              <label class="formlabels" class="formlabels">Program That Your Are Interested In?</label> 
+	          <select class="w-select form-tour" id="entry_1710616196" name="entry.1710616196" data-name="entry.1710616196" required="required">
+                <option value="Preschool (Morning)">Preschool (morning)</option>
                 <option value="Preschool (afternoon)">Preschool (afternoon)</option>
                 <option value="Preschool (all day)">Preschool (all day)</option>
                 <option value="Kindergarten (morning)">Kindergarten (morning)</option>
                 <option value="Kindergarten (afternoon)">Kindergarten (afternoon)</option>
-                <option value="">Kindergarten (all day)</option>
+                <option value="Kindergarten (all day)">Kindergarten (all day)</option>
                 <option value="Summer Camp">Summer Camp</option>
               </select>
-              <label class="formlabels">Approximate time your child would start?</label>
-              <select class="w-select form-tour" id="entry-1118017488" name="entry-1118017488" required="required" data-name="entry.1118017488">
-                <option value="Immediately">Immediately</option>
-                <option value="Within 1 Month">Within 1 Month</option>
-                <option value="1 - 3 Months">1 - 3 Months</option>
-                <option value="3 - 6 Months">3 - 6 Months</option>
-                <option value="More Than 6 Months">More Than 6 Months</option>
+  		      <label class="formlabels">Approximate time your child would start?</label>
+              <select class="w-select form-tour" id="entry_1118017488" name="entry.1118017488" data-name="entry.1710616196" required="required">
+				<option value="Immediately">Immediately</option> 
+                <option value="Within 1 Month">Within 1 Month</option> 
+                <option value="1 to 3 Months">1 to 3 Months</option> 
+                <option value="3 to 6 Months">3 to 6 Months</option> 
+                <option value="More than 6 Months">More than 6 Months</option>
               </select>
               <div class="center">
-                <input class="w-button button app-store" type="submit" value="Submit" data-wait="Please wait..."></input>
+                <input class="w-button button app-store" type="submit" value="Submit" data-wait="Sending.."></input>
               </div>
             </form>
-            <div class="w-form-done">
+            <div id="thankyou" class="w-form-done">
               <p>Thank you! Your submission has been received!</p>
             </div>
             <div class="w-form-fail">
               <p>Oops! Something went wrong while submitting the form :(</p>
             </div>
+<!--Enrollment Form End-->    
           </div>
         </div>
       </div>
@@ -170,7 +173,7 @@
     <div class="w-container">
       <div class="w-row">
         <div class="w-col w-col-8">
-          <h2 class="price-text">Refer a Friend and Get $50!</h2>
+          <h2 class="price-text">Refer a Friend and Get $50 Credit!</h2>
         </div>
         <div class="w-col w-col-4 w-clearfix">
           <a class="w-inline-block button app-store" href="http://www.apple.com" target="_blank">
