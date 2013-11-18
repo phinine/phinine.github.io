@@ -348,6 +348,9 @@ p {
     padding-bottom: 1px;
     background-image: url(../images/stepupbg.jpg);
   }
+  .section.white {
+    background-image: none;
+  }
   .hero-iphone {
     text-shadow: black 0px 0px 0px;
   }
@@ -414,6 +417,9 @@ p {
   }
   .hero-header {
     margin-top: 30px;
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
+  }
+  .hero-subtitle {
     text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
   }
   .big-image {
@@ -490,6 +496,7 @@ p {
     margin-top: 132px;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
   }
   .big-image {
     text-shadow: black 0px 0px 0px;
@@ -516,5 +523,11 @@ p {
   }
   .herophone {
     margin-top: -13px;
+  }
+  .formlabels {
+    padding-left: 7px;
+    color: #745785;
+    font-size: 13px;
+    text-align: left;
   }
 }
